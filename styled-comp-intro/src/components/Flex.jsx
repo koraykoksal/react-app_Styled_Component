@@ -8,7 +8,9 @@ const Flex = styled.div`
   gap: 1rem;
   max-width: 500px;
   margin: auto;
+  //true ise bg değerini kulaln değilse transparent işlemini yap
   /* background-color: ${(props) => props.bg || "transparent"}; */
+  
   background-color: ${({ bg }) => bg ?? "transparent"};
 `
 

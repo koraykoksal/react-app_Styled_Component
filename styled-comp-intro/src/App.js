@@ -21,6 +21,8 @@ const App = () => {
       <Flex>
         <StyledLink a href="https://bonna.com.tr">Bonna
         </StyledLink>
+        <StyledLink a href="https://bonna.com.tr" react>Bonna
+        </StyledLink>
       </Flex>
     </>
   )
